@@ -58,7 +58,7 @@ public class JavaLR3 {
         
         startTime = System.currentTimeMillis();
         for (int i =0;i<N;i++){
-            arrayList.add((N+i)/2,i*i);
+            arrayList.add(N/2,i*i);
         }
         endTime =System.currentTimeMillis();
         dur=endTime-startTime;
